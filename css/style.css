@@ -1,0 +1,89 @@
+
+/* body css */
+html,body {
+	overflow: auto;
+	overflow-x: hidden;
+	margin: 0;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 22px;
+}
+
+
+/* general section css */
+section {
+	position: relative;
+	margin: 0 -9999rem;
+	padding: 5.25rem 9999rem;
+	text-align: center;
+}
+
+
+/* welcome section css */
+section#welcome {
+	background-color: #2980b9;
+	color: #ecf0f1;
+}
+
+
+/* about section css */
+section#about {
+	background-color:#1abc9c;
+	color: #ecf0f1;
+}
+
+
+section#about p {
+	padding: 0px 120px;
+	text-align: left;
+}
+
+
+/* skills section css */
+section#skills {
+	background-color:#e74c3c;
+	color: #ecf0f1;
+}
+
+
+section#skills p {
+	padding: 0px 120px;
+	text-align: left;
+}
+
+
+/* work section css */
+section#work {
+	background-color:#95a5a6;
+	color: #ecf0f1;
+	position: relative;
+	margin: 0rem -9999rem;
+	padding: .25rem 9999rem;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+img {
+	padding: 5px 5px 5px 5px;
+}
+
+
+/* client section css */
+section#clients {
+	background-color:#e67e22;
+	color: #ecf0f1;
+}
+
+
+/* contact section css */
+section#contact {
+	background-color:#34495e;
+	color: #ecf0f1;
+}
+
+/* hidding the scrollbar */
+::-webkit-scrollbar{
+	display: none;
+}
